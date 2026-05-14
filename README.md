@@ -126,7 +126,7 @@ Clone the repository:
 
 ```bash
 
-git clone https://github.com/ManoloNasc/dashboard-hospital-bed-management.git
+git clone https://github.com/anonimo-dashboard/dashboard-hospital-bed-management.git
 
 ```
 
@@ -200,13 +200,9 @@ The application was designed as a demonstrative and educational analytical envir
 
 
 
-\## Author
+\## ## Author
 
-
-
-Manoel Nascimento
-
-Data Scientist | SESI-SP
+Anonymous research dashboard
 
 
 
