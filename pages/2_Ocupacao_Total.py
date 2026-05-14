@@ -14,7 +14,6 @@ from src.theme import (
 
 st.set_page_config(
     page_title="Ocupação Total",
-    page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -74,7 +73,7 @@ else:
     status_total = "ESTÁVEL"
     msg_status = "A média da ocupação total permanece abaixo da faixa de atenção."
 
-st.title("🏥 Ocupação Total")
+st.title("Ocupação Total")
 
 st.markdown(f"""
 ### Franco da Rocha • OpenDataSUS • 2022

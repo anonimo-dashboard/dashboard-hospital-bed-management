@@ -13,7 +13,6 @@ from src.theme import (
 
 st.set_page_config(
     page_title="Qualidade dos Dados",
-    page_icon="🧭",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -72,7 +71,7 @@ cor_revisao = (
     else COR_ESTAVEL
 )
 
-st.title("🧭 Qualidade dos Dados")
+st.title("Qualidade dos Dados")
 
 st.markdown(f"""
 ### Franco da Rocha • OpenDataSUS • 2022

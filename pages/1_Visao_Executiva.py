@@ -14,7 +14,6 @@ from src.theme import (
 
 st.set_page_config(
     page_title="Visão Executiva",
-    page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -97,7 +96,7 @@ elif pct_dias_criticos > 0:
 else:
     cor_criticos = COR_ESTAVEL
 
-st.title("🏥 Visão Executiva")
+st.title("Visão Executiva")
 
 st.markdown(f"""
 ### Franco da Rocha • OpenDataSUS • 2022

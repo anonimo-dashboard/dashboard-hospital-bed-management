@@ -12,7 +12,6 @@ from src.theme import (
 
 st.set_page_config(
     page_title="Metodologia",
-    page_icon="📘",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -20,7 +19,7 @@ st.set_page_config(
 df_base = carregar_base()
 df, data_inicio, data_fim = aplicar_sidebar(df_base)
 
-st.title("📘 Metodologia do Dashboard")
+st.title("Metodologia do Dashboard")
 
 st.markdown(f"""
 ### Dashboard Demonstrativo — Gestão de Leitos Hospitalares

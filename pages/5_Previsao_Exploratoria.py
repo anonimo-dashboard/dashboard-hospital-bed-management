@@ -17,7 +17,6 @@ from src.theme import (
 
 st.set_page_config(
     page_title="Previsão Exploratória",
-    page_icon="🔮",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -25,7 +24,7 @@ st.set_page_config(
 df_base = carregar_base()
 df, data_inicio, data_fim = aplicar_sidebar(df_base)
 
-st.title("🔮 Previsão Exploratória")
+st.title("Previsão Exploratória")
 
 st.markdown(f"""
 ### Franco da Rocha • OpenDataSUS • 2022

@@ -14,7 +14,6 @@ from src.theme import (
 
 st.set_page_config(
     page_title="UTI Adulto",
-    page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -74,7 +73,7 @@ else:
     status_uti = "ESTÁVEL"
     msg_status = "A média de ocupação da UTI adulto permanece abaixo da faixa de atenção."
 
-st.title("🏥 UTI Adulto")
+st.title("UTI Adulto")
 
 st.markdown(f"""
 ### Franco da Rocha • OpenDataSUS • 2022

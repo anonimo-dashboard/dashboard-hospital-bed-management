@@ -11,8 +11,7 @@ from src.theme import (
 )
 
 st.set_page_config(
-    page_title="Página Inicial",
-    page_icon="🏥",
+    page_title="Gestão de Leitos Hospitalares",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -41,7 +40,7 @@ cor_critico = (
     else COR_ESTAVEL
 )
 
-st.title("🏥 Gestão de Leitos Hospitalares")
+st.title("Gestão de Leitos Hospitalares")
 st.caption("Página Inicial")
 
 st.markdown("""

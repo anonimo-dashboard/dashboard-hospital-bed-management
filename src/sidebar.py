@@ -8,7 +8,7 @@ def aplicar_sidebar(df):
     # ---------------------------------------------------
 
     st.sidebar.markdown("""
-    # 🏥 Gestão de Leitos
+    # Gestão de Leitos
 
     **Dashboard demonstrativo**  
     Framework visual para análise operacional de ocupação hospitalar.
@@ -105,7 +105,7 @@ def aplicar_sidebar(df):
     st.sidebar.markdown("---")
 
     st.sidebar.markdown(
-        "### 📊 Resumo operacional"
+        "### Resumo operacional"
     )
 
     st.sidebar.metric(
@@ -130,7 +130,7 @@ def aplicar_sidebar(df):
     st.sidebar.markdown("---")
 
     st.sidebar.markdown(
-        "### 🚦 Status operacional"
+        "### Status operacional"
     )
 
     if ocupacao_media >= 80:
